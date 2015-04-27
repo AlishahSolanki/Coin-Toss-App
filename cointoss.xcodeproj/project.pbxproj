@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBC07C441AE78D8100955B9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC07C431AE78D8100955B9D /* AppDelegate.swift */; };
+		DBC07C461AE78D8100955B9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC07C451AE78D8100955B9D /* ViewController.swift */; };
+		DBC07C491AE78D8100955B9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC07C471AE78D8100955B9D /* Main.storyboard */; };
+		DBC07C4B1AE78D8100955B9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC07C4A1AE78D8100955B9D /* Images.xcassets */; };
+		DBC07C4E1AE78D8100955B9D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBC07C4C1AE78D8100955B9D /* LaunchScreen.xib */; };
+		DBC07C5A1AE78D8200955B9D /* cointossTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC07C591AE78D8200955B9D /* cointossTests.swift */; };
+		DBC07C6C1AE78DA600955B9D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC07C6B1AE78DA600955B9D /* InterfaceController.swift */; };
+		DBC07C6E1AE78DA600955B9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC07C6D1AE78DA600955B9D /* Images.xcassets */; };
+		DBC07C721AE78DA600955B9D /* cointoss WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = DBC07C711AE78DA600955B9D /* cointoss WatchKit App.app */; };
+		DBC07C7A1AE78DA600955B9D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC07C781AE78DA600955B9D /* Interface.storyboard */; };
+		DBC07C7C1AE78DA600955B9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC07C7B1AE78DA600955B9D /* Images.xcassets */; };
+		DBC07C7F1AE78DA600955B9D /* cointoss WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DBC07C671AE78DA600955B9D /* cointoss WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DBC07C881AE78F3400955B9D /* RefrigeratorDeluxe.otf in Resources */ = {isa = PBXBuildFile; fileRef = DBC07C871AE78F3400955B9D /* RefrigeratorDeluxe.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBC07C541AE78D8200955B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC07C361AE78D8100955B9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC07C3D1AE78D8100955B9D;
+			remoteInfo = cointoss;
+		};
+		DBC07C731AE78DA600955B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC07C361AE78D8100955B9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC07C701AE78DA600955B9D;
+			remoteInfo = "cointoss WatchKit App";
+		};
+		DBC07C7D1AE78DA600955B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC07C361AE78D8100955B9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC07C661AE78DA600955B9D;
+			remoteInfo = "cointoss WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBC07C861AE78DA600955B9D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DBC07C7F1AE78DA600955B9D /* cointoss WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DBC07C3E1AE78D8100955B9D /* cointoss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cointoss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC07C421AE78D8100955B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC07C431AE78D8100955B9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBC07C451AE78D8100955B9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBC07C481AE78D8100955B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBC07C4A1AE78D8100955B9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBC07C4D1AE78D8100955B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DBC07C531AE78D8200955B9D /* cointossTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cointossTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC07C581AE78D8200955B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC07C591AE78D8200955B9D /* cointossTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cointossTests.swift; sourceTree = "<group>"; };
+		DBC07C671AE78DA600955B9D /* cointoss WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "cointoss WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC07C6A1AE78DA600955B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC07C6B1AE78DA600955B9D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DBC07C6D1AE78DA600955B9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBC07C711AE78DA600955B9D /* cointoss WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cointoss WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC07C771AE78DA600955B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC07C791AE78DA600955B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DBC07C7B1AE78DA600955B9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBC07C871AE78F3400955B9D /* RefrigeratorDeluxe.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RefrigeratorDeluxe.otf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC07C3B1AE78D8100955B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC07C501AE78D8200955B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC07C641AE78DA600955B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBC07C351AE78D8100955B9D = {
+			isa = PBXGroup;
+			children = (
+				DBC07C401AE78D8100955B9D /* cointoss */,
+				DBC07C561AE78D8200955B9D /* cointossTests */,
+				DBC07C681AE78DA600955B9D /* cointoss WatchKit Extension */,
+				DBC07C751AE78DA600955B9D /* cointoss WatchKit App */,
+				DBC07C3F1AE78D8100955B9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC07C3F1AE78D8100955B9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC07C3E1AE78D8100955B9D /* cointoss.app */,
+				DBC07C531AE78D8200955B9D /* cointossTests.xctest */,
+				DBC07C671AE78DA600955B9D /* cointoss WatchKit Extension.appex */,
+				DBC07C711AE78DA600955B9D /* cointoss WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC07C401AE78D8100955B9D /* cointoss */ = {
+			isa = PBXGroup;
+			children = (
+				DBC07C431AE78D8100955B9D /* AppDelegate.swift */,
+				DBC07C451AE78D8100955B9D /* ViewController.swift */,
+				DBC07C471AE78D8100955B9D /* Main.storyboard */,
+				DBC07C871AE78F3400955B9D /* RefrigeratorDeluxe.otf */,
+				DBC07C4A1AE78D8100955B9D /* Images.xcassets */,
+				DBC07C4C1AE78D8100955B9D /* LaunchScreen.xib */,
+				DBC07C411AE78D8100955B9D /* Supporting Files */,
+			);
+			path = cointoss;
+			sourceTree = "<group>";
+		};
+		DBC07C411AE78D8100955B9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBC07C421AE78D8100955B9D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBC07C561AE78D8200955B9D /* cointossTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC07C591AE78D8200955B9D /* cointossTests.swift */,
+				DBC07C571AE78D8200955B9D /* Supporting Files */,
+			);
+			path = cointossTests;
+			sourceTree = "<group>";
+		};
+		DBC07C571AE78D8200955B9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBC07C581AE78D8200955B9D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBC07C681AE78DA600955B9D /* cointoss WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DBC07C6B1AE78DA600955B9D /* InterfaceController.swift */,
+				DBC07C6D1AE78DA600955B9D /* Images.xcassets */,
+				DBC07C691AE78DA600955B9D /* Supporting Files */,
+			);
+			path = "cointoss WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DBC07C691AE78DA600955B9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBC07C6A1AE78DA600955B9D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBC07C751AE78DA600955B9D /* cointoss WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DBC07C781AE78DA600955B9D /* Interface.storyboard */,
+				DBC07C7B1AE78DA600955B9D /* Images.xcassets */,
+				DBC07C761AE78DA600955B9D /* Supporting Files */,
+			);
+			path = "cointoss WatchKit App";
+			sourceTree = "<group>";
+		};
+		DBC07C761AE78DA600955B9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBC07C771AE78DA600955B9D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC07C3D1AE78D8100955B9D /* cointoss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC07C5D1AE78D8200955B9D /* Build configuration list for PBXNativeTarget "cointoss" */;
+			buildPhases = (
+				DBC07C3A1AE78D8100955B9D /* Sources */,
+				DBC07C3B1AE78D8100955B9D /* Frameworks */,
+				DBC07C3C1AE78D8100955B9D /* Resources */,
+				DBC07C861AE78DA600955B9D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC07C7E1AE78DA600955B9D /* PBXTargetDependency */,
+			);
+			name = cointoss;
+			productName = cointoss;
+			productReference = DBC07C3E1AE78D8100955B9D /* cointoss.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBC07C521AE78D8200955B9D /* cointossTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC07C601AE78D8200955B9D /* Build configuration list for PBXNativeTarget "cointossTests" */;
+			buildPhases = (
+				DBC07C4F1AE78D8200955B9D /* Sources */,
+				DBC07C501AE78D8200955B9D /* Frameworks */,
+				DBC07C511AE78D8200955B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC07C551AE78D8200955B9D /* PBXTargetDependency */,
+			);
+			name = cointossTests;
+			productName = cointossTests;
+			productReference = DBC07C531AE78D8200955B9D /* cointossTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBC07C661AE78DA600955B9D /* cointoss WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC07C831AE78DA600955B9D /* Build configuration list for PBXNativeTarget "cointoss WatchKit Extension" */;
+			buildPhases = (
+				DBC07C631AE78DA600955B9D /* Sources */,
+				DBC07C641AE78DA600955B9D /* Frameworks */,
+				DBC07C651AE78DA600955B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC07C741AE78DA600955B9D /* PBXTargetDependency */,
+			);
+			name = "cointoss WatchKit Extension";
+			productName = "cointoss WatchKit Extension";
+			productReference = DBC07C671AE78DA600955B9D /* cointoss WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		DBC07C701AE78DA600955B9D /* cointoss WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC07C801AE78DA600955B9D /* Build configuration list for PBXNativeTarget "cointoss WatchKit App" */;
+			buildPhases = (
+				DBC07C6F1AE78DA600955B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cointoss WatchKit App";
+			productName = "cointoss WatchKit App";
+			productReference = DBC07C711AE78DA600955B9D /* cointoss WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC07C361AE78D8100955B9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Christopher Alan";
+				TargetAttributes = {
+					DBC07C3D1AE78D8100955B9D = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = LSXD39HSX3;
+					};
+					DBC07C521AE78D8200955B9D = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = DBC07C3D1AE78D8100955B9D;
+					};
+					DBC07C661AE78DA600955B9D = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = LSXD39HSX3;
+					};
+					DBC07C701AE78DA600955B9D = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = LSXD39HSX3;
+					};
+				};
+			};
+			buildConfigurationList = DBC07C391AE78D8100955B9D /* Build configuration list for PBXProject "cointoss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC07C351AE78D8100955B9D;
+			productRefGroup = DBC07C3F1AE78D8100955B9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC07C3D1AE78D8100955B9D /* cointoss */,
+				DBC07C521AE78D8200955B9D /* cointossTests */,
+				DBC07C661AE78DA600955B9D /* cointoss WatchKit Extension */,
+				DBC07C701AE78DA600955B9D /* cointoss WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC07C3C1AE78D8100955B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC07C881AE78F3400955B9D /* RefrigeratorDeluxe.otf in Resources */,
+				DBC07C491AE78D8100955B9D /* Main.storyboard in Resources */,
+				DBC07C4E1AE78D8100955B9D /* LaunchScreen.xib in Resources */,
+				DBC07C4B1AE78D8100955B9D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC07C511AE78D8200955B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC07C651AE78DA600955B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC07C721AE78DA600955B9D /* cointoss WatchKit App.app in Resources */,
+				DBC07C6E1AE78DA600955B9D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC07C6F1AE78DA600955B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC07C7A1AE78DA600955B9D /* Interface.storyboard in Resources */,
+				DBC07C7C1AE78DA600955B9D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC07C3A1AE78D8100955B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC07C461AE78D8100955B9D /* ViewController.swift in Sources */,
+				DBC07C441AE78D8100955B9D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC07C4F1AE78D8200955B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC07C5A1AE78D8200955B9D /* cointossTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC07C631AE78DA600955B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC07C6C1AE78DA600955B9D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBC07C551AE78D8200955B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC07C3D1AE78D8100955B9D /* cointoss */;
+			targetProxy = DBC07C541AE78D8200955B9D /* PBXContainerItemProxy */;
+		};
+		DBC07C741AE78DA600955B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC07C701AE78DA600955B9D /* cointoss WatchKit App */;
+			targetProxy = DBC07C731AE78DA600955B9D /* PBXContainerItemProxy */;
+		};
+		DBC07C7E1AE78DA600955B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC07C661AE78DA600955B9D /* cointoss WatchKit Extension */;
+			targetProxy = DBC07C7D1AE78DA600955B9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBC07C471AE78D8100955B9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC07C481AE78D8100955B9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBC07C4C1AE78D8100955B9D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC07C4D1AE78D8100955B9D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		DBC07C781AE78DA600955B9D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC07C791AE78DA600955B9D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBC07C5B1AE78D8200955B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBC07C5C1AE78D8200955B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC07C5E1AE78D8200955B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = cointoss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBC07C5F1AE78D8200955B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = cointoss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DBC07C611AE78D8200955B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = cointossTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cointoss.app/cointoss";
+			};
+			name = Debug;
+		};
+		DBC07C621AE78D8200955B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = cointossTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cointoss.app/cointoss";
+			};
+			name = Release;
+		};
+		DBC07C811AE78DA600955B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = cointoss_WatchKit_Extension;
+				INFOPLIST_FILE = "cointoss WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		DBC07C821AE78DA600955B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = cointoss_WatchKit_Extension;
+				INFOPLIST_FILE = "cointoss WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		DBC07C841AE78DA600955B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cointoss WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DBC07C851AE78DA600955B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "cointoss WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC07C391AE78D8100955B9D /* Build configuration list for PBXProject "cointoss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC07C5B1AE78D8200955B9D /* Debug */,
+				DBC07C5C1AE78D8200955B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC07C5D1AE78D8200955B9D /* Build configuration list for PBXNativeTarget "cointoss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC07C5E1AE78D8200955B9D /* Debug */,
+				DBC07C5F1AE78D8200955B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC07C601AE78D8200955B9D /* Build configuration list for PBXNativeTarget "cointossTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC07C611AE78D8200955B9D /* Debug */,
+				DBC07C621AE78D8200955B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC07C801AE78DA600955B9D /* Build configuration list for PBXNativeTarget "cointoss WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC07C811AE78DA600955B9D /* Debug */,
+				DBC07C821AE78DA600955B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC07C831AE78DA600955B9D /* Build configuration list for PBXNativeTarget "cointoss WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC07C841AE78DA600955B9D /* Debug */,
+				DBC07C851AE78DA600955B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBC07C361AE78D8100955B9D /* Project object */;
+}
